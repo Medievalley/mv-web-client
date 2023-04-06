@@ -1,12 +1,10 @@
+import { Login } from "./pages/Login/Login";
 import './App.css';
-import Main from "./Main";
 
 const App: React.FC = () => {
-	return (
-		<>
-			<Main />
-		</>
-	);
+	return <div>
+		<Login />
+	</div>
 };
 
-export default App;
+export { App };

@@ -5,19 +5,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: Commissioner, sans-serif; 
+	font-family: Commissioner, sans-serif;
 	font-weight: 300;
 }
 
-.login_modal {
+.login-form {
+	min-width: 25%;
 	color: #fff;	
 	position: relative;
 	bottom: 5%;
-	width: 400px;
-	padding: 0 15px;
 }
 
-.login_label {
+.login-form__label {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -26,15 +25,15 @@
 	font-size: 22px;
 }
 
-.login_label_icon {
+.label__icon {
 	margin-bottom: 20px;
 }
 
-.login_label_icon img {
+.label__icon img {
 	width: 40px;
 }
 
-.login_form {
+.login-form__form {
 	background-color: rgba(255, 255, 255, 0.232);
 	padding: 40px;
 	display: flex;
@@ -42,11 +41,12 @@
 	justify-content: center;
 	flex-direction: column;
 	border-radius: 8px;
+	margin-bottom: 25px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.127);
 }
 
-.login_form input,
-.login_form button {
+.form input,
+.form button {
 	width: 100%;
 	font-family: Commissioner, sans-serif;
 	color: #fff;
@@ -54,27 +54,27 @@
 	font-size: 16px;
 }
 
-.login_form input {
+.form input {
 	margin-bottom: 8px;
 	background: transparent;
 	border: 1px solid rgba(255, 255, 255, 0.6);
 	padding: 12px 14px;
 }
 
-.login_form input:focus {
+.form input:focus {
 	outline: none;
 }
 
-.login_form input[type=password]:not(:placeholder-shown) {
+.form input[type=password]:not(:placeholder-shown) {
 	letter-spacing: 0.125em;
 	font-family: Verdana, sans-serif;
 }
 
-.login_form input::placeholder {
+.form input::placeholder {
 	color: rgba(255, 255, 255, 0.503);
 }
 
-.login_form button {
+.form button {
 	margin-top: 10px;
 	padding: 12px 0;
 	background-color: rgba(60, 98, 65, 0.8);
@@ -82,36 +82,34 @@
 	cursor: pointer;
 }
 
-.login_form button:hover {
+.form button:hover {
 	background-color: rgba(60, 98, 65, 1);
 }
 
-.login_footer {
+.footer {
 	display: flex;
 	justify-content: space-between;
 	font-size: 12px;
 	max-width: 100%;
 	color: rgba(255, 255, 255, 0.768);
-	margin: 20px 10px 0;
 }
 
-.login_footer a {
+.footer a {
 	transition: all 0.2s ease;
-	line-height: 2;
 }
 
-.login_footer a:hover {
+.footer a:hover {
 	color: #fff;
 }
 
-.login_footer_left {
+.footer__forgot-password {
 	margin-right: 10px;
 }
 
-.login_footer_right {
+.footer__sign-up {
 	margin-left: 10px;
 }
 
-.login span {
-	font-weight: 600;
+.footer__get-started {
+	font-weight: 700;
 }
