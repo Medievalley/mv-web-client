@@ -1,0 +1,27 @@
+.login_form label {
+	line-height: 132%;
+	margin-bottom: 11px;
+}
+
+.linkSent {
+	padding-top: 40px;
+	animation: ani 1s ease;
+}
+
+@keyframes ani {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.linkSent p {
+	background: url('../../../img/icons/check.svg') right 50%/contain no-repeat;
+	padding-right: 25px;
+}
+
+.login_footer_right {
+	margin-left: auto;
+}
