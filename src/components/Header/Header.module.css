@@ -1,0 +1,45 @@
+.header {
+	background-color: #252D25;
+	box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
+	position: relative;
+}
+
+.container {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0 15px;
+	color: #fff;
+}
+
+.title {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 14px;
+}
+
+.userPic {
+	border-radius: 5px;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+}
+
+.logOutButton {
+	font-family: inherit;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px;
+	margin: -5px;
+}
